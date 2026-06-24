@@ -2844,6 +2844,7 @@ pub fn option2bool(option: &str, value: &str) -> bool {
         value != "N"
     }
 }
+                     
 
 pub fn use_ws() -> bool {
     let option = keys::OPTION_ALLOW_WEBSOCKET;
