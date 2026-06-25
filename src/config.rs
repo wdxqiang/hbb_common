@@ -2830,6 +2830,7 @@ pub fn is_disable_installation() -> bool {
 // This function must be kept the same as the one in flutter and sciter code.
 // flutter: flutter/lib/common.dart -> option2bool()
 // sciter: Does not have the function, but it should be kept the same.
+// 修改默认设置
 pub fn option2bool(option: &str, value: &str) -> bool {
     if option.starts_with("enable-") {
         value != "N"
