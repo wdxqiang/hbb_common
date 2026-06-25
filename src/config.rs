@@ -2836,11 +2836,10 @@ pub fn option2bool(option: &str, value: &str) -> bool {
         value != "N"
     } else if option.starts_with("allow-")
         || option == "stop-service"
+        || option == keys::OPTION_DIRECT_SERVER
         || option == "force-always-relay"
     {
         value == "Y"
-    } else if option == keys::OPTION_DIRECT_SERVER {
-        value != "N"
     } else {
         value != "N"
     }
