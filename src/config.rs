@@ -3035,6 +3035,7 @@ pub mod keys {
     pub const OPTION_FLOATING_WINDOW_TRANSPARENCY: &str = "floating-window-transparency";
     pub const OPTION_FLOATING_WINDOW_SVG: &str = "floating-window-svg";
 
+                     
     // android keep screen on
     pub const OPTION_KEEP_SCREEN_ON: &str = "keep-screen-on";
 
